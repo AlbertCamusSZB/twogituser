@@ -26,6 +26,15 @@
     name.adjustsFontSizeToFitWidth = NO;
     name.font = [UIFont systemFontOfSize:13];
     [self.view addSubview:name];
+    
+    UILabel *name1 = [[UILabel alloc] init];
+    name1.frame = CGRectMake(100, 50, 100, 100);
+    name.backgroundColor = [UIColor yellowColor];
+    name.textColor = [UIColor blackColor];
+    name.textAlignment = NSTextAlignmentCenter;
+    name.adjustsFontSizeToFitWidth = NO;
+    name.font = [UIFont systemFontOfSize:13];
+    [self.view addSubview:name];
 }
 
 
